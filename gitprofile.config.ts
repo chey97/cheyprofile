@@ -84,13 +84,19 @@ const CONFIG = {
   //     'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   // },
   skills: [
-    'Pyhton',
+    'Python',
     'Django',
     'JavaScript',
     'React.js',
     'Node.js',
     'Git',
     'CSS',
+    'Robo3T',
+    'Tensorflow',
+    'Pytorch',
+    'OpenCV',
+    'Jupyter Notebooks, Google Collab, VS',
+    'Sequential Modeling'
   ],
   experiences: [
     {
