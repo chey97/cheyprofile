@@ -1,11 +1,11 @@
 import { skeleton } from '../../utils';
 
-const SkillCard = ({
+const ResearchCard = ({
   loading,
-  skills,
+  research,
 }: {
   loading: boolean;
-  skills: string[];
+  research: string[];
 }) => {
   const renderSkeleton = () => {
     const array = [];
@@ -28,7 +28,9 @@ const SkillCard = ({
             {loading ? (
               skeleton({ widthCls: 'w-32', heightCls: 'h-8' })
             ) : (
-              <span className="text-base-content opacity-70">Tech Stack</span>
+              <span className="text-base-content opacity-70">
+                Research Intrests
+              </span>
             )}
           </h5>
         </div>
@@ -36,12 +38,12 @@ const SkillCard = ({
           <div className="-m-1 flex flex-wrap justify-center">
             {loading
               ? renderSkeleton()
-              : skills.map((skill, index) => (
+              : research.map((research, index) => (
                   <div
                     key={index}
                     className="m-1 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 badge-primary bg-opacity-90 rounded-full"
                   >
-                    {skill}
+                    {research}
                   </div>
                 ))}
           </div>
@@ -51,4 +53,4 @@ const SkillCard = ({
   );
 };
 
-export default SkillCard;
+export default ResearchCard;

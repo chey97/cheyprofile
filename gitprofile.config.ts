@@ -98,6 +98,10 @@ const CONFIG = {
     'Jupyter Notebooks, Google Collab, VS',
     'Sequential Modeling'
   ],
+  research: [
+    'Python',
+    'Django',
+  ],
   experiences: [
     {
       company: 'iVedha',
