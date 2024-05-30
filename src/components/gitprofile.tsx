@@ -225,12 +225,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                         skills={sanitizedConfig.skills}
                       />
                     )}
-                    {/* {sanitizedConfig.research.length !== 0 && (
-                      <ResearchCard
-                        loading={loading}
-                        research={sanitizedConfig.research}
-                      />
-                    )} */}
                     {sanitizedConfig.experiences.length !== 0 && (
                       <ExperienceCard
                         loading={loading}
