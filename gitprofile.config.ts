@@ -11,6 +11,7 @@ const CONFIG = {
    */
   base: '/gitprofile/',
   projects: {
+    
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
