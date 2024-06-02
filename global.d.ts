@@ -385,6 +385,11 @@ interface Config {
   skills?: Array<string>;
 
   /**
+   * Research list
+   */
+  research?: Array<string>;
+
+  /**
    * Experience list
    */
   experiences?: Array<Experience>;

@@ -15,10 +15,10 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -26,7 +26,15 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+        'chey97/django-drf-ecommerce ',
+        'chey97/miniGPT',
+        'chey97/Moodle_Django ',
+        'chey97/ProteinSeq_Classifier ',
+        'chey97/DNASeq-Classifier ',
+        'chey97/simpleBOT  '
+
+      ],
       },
     },
     // external: {
@@ -53,15 +61,15 @@ const CONFIG = {
     // },
   },
   seo: {
-    title: 'Portfolio of Chethiya Galkaduwa',
-    description: '',
+    title: 'Chethiya Galkaduwa',
+    description: 'Portfolio of Chethiya Galkaduwa',
     imageURL: '',
   },
   social: {
     linkedin: 'chethiya-galkaduwa',
     twitter: '',
     mastodon: '',
-    researchGate: '',
+    researchGate: 'Chethiya-Galkaduwa',
     facebook: '',
     instagram: '',
     reddit: '',
@@ -95,12 +103,15 @@ const CONFIG = {
     'Tensorflow',
     'Pytorch',
     'OpenCV',
-    'Jupyter Notebooks, Google Collab, VS',
+    'Jupyter Notebooks',
+    'VScode',
+    'Google Collab',
     'Sequential Modeling'
   ],
   research: [
-    'Python',
-    'Django',
+    'Natural Language Processing',
+    'Machine Learning',
+    'Computer Vision',
   ],
   experiences: [
     {
