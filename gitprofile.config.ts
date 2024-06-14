@@ -29,11 +29,11 @@ const CONFIG = {
         projects: [
         'chey97/django-drf-ecommerce ',
         'chey97/miniGPT',
-        'chey97/Moodle_Django ',
+        'chey97/django-drf-channels-react-project-Chat ',
         'chey97/ProteinSeq_Classifier ',
         'chey97/DNASeq-Classifier ',
-        'chey97/simpleBOT  '
-
+        'chey97/HandTrackingModule  ',
+        'chey97/simpleBOT  ',
       ],
       },
     },
