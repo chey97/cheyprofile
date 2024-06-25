@@ -34,6 +34,7 @@ const CONFIG = {
         'chey97/DNASeq-Classifier ',
         'chey97/HandTrackingModule  ',
         'chey97/simpleBOT  ',
+        'chey97/GesturePlayPauseControl--AppleScript  ',
       ],
       },
     },
